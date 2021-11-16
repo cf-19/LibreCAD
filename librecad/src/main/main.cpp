@@ -75,7 +75,7 @@ int main(int argc, char** argv)
         }
     }
 
-    RS_DEBUG->setLevel(RS_Debug::D_WARNING);
+    RS_DEBUG->setLevel(RS_Debug::D_DEBUGGING);
 
     LC_Application app(argc, argv);
     QCoreApplication::setOrganizationName("LibreCAD");
